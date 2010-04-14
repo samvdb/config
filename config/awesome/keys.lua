@@ -57,6 +57,7 @@ globalkeys = awful.util.table.join(
 
     -- Standard program
     awful.key({ modkey,           }, "Return", function () awful.util.spawn(apps.terminal) end),
+    awful.key({ modkey,           }, "u", function () awful.util.spawn("uzbl-browser") end),
     awful.key({ modkey, "Control" }, "r", awesome.restart),
 
     awful.key({ modkey,           }, "l",     function () awful.tag.incmwfact( 0.05)    end),
