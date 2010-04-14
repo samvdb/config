@@ -1,0 +1,12 @@
+This directory contains themes used by several applications.
+
+Each theme is a directory which collects application specific configuration
+files that together make up a `style'. Each application is in charge of loading
+the relevant theme file itself.
+
+The current theme in use is symlinked to ./current
+
+A typical directlry structure would be
+./simple/ <-- a theme folder
+./simple/tmux.conf <-- file containing tmux theme commands
+./current -> ./simple <-- symlink pointing to the current theme
