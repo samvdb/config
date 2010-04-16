@@ -76,8 +76,8 @@
 -- Setting options at runtime
 -- --------------------------
 -- All of the above options can be set at runtime by calling a function on the
--- tagreduce object named as the options prefixed by 'set_'.
--- as an example, using the setup from above, one can do
+-- tagreduce object, named as the option prefixed by 'set_'.
+-- As an example, using the setup from above, one can do
 --    echo "tags:set_fg_focus = '#990000'" | awesome-client
 -- to change the fg_focus color at any time.
 -- These options can also be bound to keys, so you can show/hide tags easily
