@@ -2,13 +2,18 @@
 -- IRC NOTIFICATION WIDGET
 -- -----------------------------------------------------------------------------
 --
---  This widget works together with an IRC client to keep you informed of
---  activity. It exposes a few functions that can be called over awesome-client,
---  and it is then up to your irc client to make use of these.
+-- This widget works together with an IRC client to keep you informed of
+-- activity. It exposes a few functions that can be called over awesome-client,
+-- and it is then up to your irc client to make use of these.
 --
---  The functions exposed include a function for sending notifications via
---  naughty, functions for displaying which channels have activity, and
---  functions to clear the state.
+-- The functions exposed include a function for sending notifications via
+-- naughty, functions for displaying which channels have activity, and
+-- functions to clear the state.
+--
+-- By right clicking the widget you can toggle the notification mode (all,
+-- hightlight, offline) and by left clicking you can clear the activity mark.
+--
+-- Any suggestions for improvement are welcome.
 --
 -- ----------------------------------------------------------------------------
 
