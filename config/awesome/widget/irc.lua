@@ -135,7 +135,6 @@ local tooltip = require("awful.tooltip")
 local util = require("awful.util")
 local naughty = require("naughty")
 local beautiful = require("beautiful")
-local log = require("lib.logging")
 
 local capi = {
     widget = widget,
